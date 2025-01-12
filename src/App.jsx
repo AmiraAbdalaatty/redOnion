@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import MainPage from "./pages/mainPage";
 import Food from "./pages/food";
 import SignUp from "./pages/signUp";
@@ -9,7 +9,7 @@ import Cart from "./pages/cart";
 export default function App() {
 
   return (
-    <Router>
+    <BrowserRouter basename="/redonion">
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/food/:id" element={<Food />} />
@@ -17,6 +17,6 @@ export default function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   )
 };
