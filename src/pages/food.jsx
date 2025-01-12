@@ -22,7 +22,7 @@ export default function Food(){
         
         <div className='pageContainer'>
             <button className='closeButton'>Close</button>
-            <div className='upperBage'>
+            <div className='upperBage'> 
             <div>
                 <div className='pageTitle'>{item.itemTitle}</div>
                 <div className='pageDec'>{item.itemDec}</div>
