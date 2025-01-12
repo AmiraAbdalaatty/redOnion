@@ -9,7 +9,7 @@ import Cart from "./pages/cart";
 export default function App() {
 
   return (
-    <BrowserRouter basename="/redonion">
+    <BrowserRouter basename="/redOnion">
       <Routes>
         <Route path="/" element={<MainPage />}/>
         <Route path="/food/:id" element={<Food />} />

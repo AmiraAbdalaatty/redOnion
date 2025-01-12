@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AmiraAbdalaatty.github.io/redonion",
+  "homepage": "https://AmiraAbdalaatty.github.io/redOnion",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
